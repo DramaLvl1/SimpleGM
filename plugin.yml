@@ -1,0 +1,15 @@
+name: SimpleGM
+api: [3.0.0, 4.0.0]
+main: SimpleGM\Drama_Lvl1\Main
+version: 2.0.0
+author: Drama_Lvl1
+
+commands:
+  gm:
+    description: SimpleGM - Change your Gamemode
+    permission: simplegm.use
+
+permissions:
+  SimpleGM.use:
+    description: Your are allowed to use /gm
+    default: op
