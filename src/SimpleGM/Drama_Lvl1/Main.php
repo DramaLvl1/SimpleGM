@@ -54,7 +54,7 @@ class Main extends PluginBase{
 						}
                     }
 				} else if(!$sender->hasPermission("SimpleGM.use")){
-					$sender->sendMessage("§8[§bSimple§3GM§8] §cDu hast keine Berechtigung diesen Befehl zu verwenden!");
+					$sender->sendMessage("§8[§bSimple§3GM§8] §cYou do not have permission to use this command!");
 				}
 					
             } else {
