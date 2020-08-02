@@ -1,0 +1,9 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/DramaLvl1/SimpleGM
+build-by-default: true
+branches:
+- master
+projects:
+  SimpleGM:
+    path: ""
+    image: icon.png
+...
